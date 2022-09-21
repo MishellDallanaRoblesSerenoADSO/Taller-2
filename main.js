@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 addEventListener("DOMContentLoaded",()=>{
     // 1. Escribir un programa que sume, reste, multiplique y divida dos números
 
@@ -10,6 +11,8 @@ addEventListener("DOMContentLoaded",()=>{
     console.log(`la division es ${num1} / ${num2} = ${num1 / num2}`);
 })
 =======
+=======
+>>>>>>> 8a952ed (Ejercicio 6)
 <<<<<<< HEAD
 addEventListener("DOMContentLoaded", (e)=>{
     //30. Ingrese una frase que lo identifique como programador de Software y luego mostar esta frase
@@ -98,12 +101,29 @@ addEventListener("DOMContentLoaded",()=>{
 =======
     // cantidad de gramos
     let gramos=Number(prompt("¿Cuántos gramos de cacao le aregará? ", 20))  
+=======
+addEventListener("DOMContentLoaded", (e)=>{
+    // 26. Un camión transporta 25 cajas de repuestos de carros. Si cada caja pesa 748 Kg ¿ Cuántos Kg
+    // transporta ?
+
+    // cantidad kg
+    
+    let cajas = prompt("Cantidad de cajas que transporta", 25); 
+>>>>>>> 4d40ad1 (Ejercicio 26)
 
     // operación
-    let t=gramos*10
+    let t = cajas*748
 
 
+<<<<<<< HEAD
     console.log(`La cantidad de gramos de harina que tiene que agregar es: ${t} gramos`)
 })
 >>>>>>> 0732ad0 (Ejercicio 25)
+<<<<<<< HEAD
 >>>>>>> 6557b19 (Ejercicio 5)
+=======
+=======
+    console.log(`La cantidad que transporta es de: ${t} kg`)
+})
+>>>>>>> 4d40ad1 (Ejercicio 26)
+>>>>>>> 8a952ed (Ejercicio 6)
