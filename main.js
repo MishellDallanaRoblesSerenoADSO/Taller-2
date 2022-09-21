@@ -103,10 +103,11 @@ addEventListener("DOMContentLoaded",()=>{
     let gramos=Number(prompt("¿Cuántos gramos de cacao le aregará? ", 20))  
 =======
 addEventListener("DOMContentLoaded", (e)=>{
-    //28. Pinturas “La brocha gorda” requiere determinar cuánto cobrar por trabajos de pintura. Considere que
-    // se cobra por m2 y realice el código que representen el algoritmo que le permita ir generando
-    // presupuestos para cada cliente.
+    //29. Una empresa que contrata personal requiere determinar la edad de las personas que solicitan trabajo,
+    // pero cuando se les realiza la entrevista sólo se les pregunta el año en que nacieron. Realice el código
+    // que representen el algoritmo para solucionar este problema.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     // cantidad kg
@@ -143,11 +144,24 @@ addEventListener("DOMContentLoaded", (e)=>{
     // Cantidad y precio del m2 
     let m2=Number(prompt("¿Cuál es la cantidad de m2?: ",5))
     let precio=Number(prompt("Precio del m2: ",5))
+=======
+    // Solicita año de nacimiento y año actual
+    let a=Number(prompt("¿Cuál es su año de nacimiento?: ",5))
+    let ac=Number(prompt("Año actual: ",))
+>>>>>>> 79c6eea (Ejercicio 29)
 
     // operación
-    let t=m2*precio
+    let edad=ac-a
 
+<<<<<<< HEAD
     console.log(`El valor de la pintura es: ${t}`)
 })
 >>>>>>> 5e38763 (Ejercicio 28)
+<<<<<<< HEAD
 >>>>>>> 0f196d1 (Ejercicio 8)
+=======
+=======
+    console.log(`La edad de la persona: ${edad}`)
+})
+>>>>>>> 79c6eea (Ejercicio 29)
+>>>>>>> 0eac227 (Ejercicio 9)
