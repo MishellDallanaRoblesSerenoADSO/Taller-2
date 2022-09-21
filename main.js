@@ -25,10 +25,12 @@ addEventListener("DOMContentLoaded", (e)=>{
 })
 =======
 addEventListener("DOMContentLoaded",()=>{
-    // 24. Un jefe de obra con el dinero que tiene compra cinco juegos de llaves hexagonales cada uno por
-    // $11500. Una bomba en $1168000 y tres cajas de pernos cada uno por $87000. Después de pagar le
-    // sobran $91000. ¿cuánto dinero tenía?
+    // 25. En el programa de cocina de “Doña Anita” han dado la receta para la preparación de bizcocho especial
+    // de chocolate. Por cada 100 gramos de harina hay que añadir 10 gramos de cacao y un puñado de
+    // nueces. Si quiero prepararlos con 20 gramos de chocolate. La cantidad de gramos de harina para
+    // hacer el bizcocho es
 
+<<<<<<< HEAD
     // valores de llaves hexagonales, bomba, cajas perno y cambio 
     
 <<<<<<< HEAD
@@ -90,4 +92,18 @@ addEventListener("DOMContentLoaded",()=>{
     console.log(`Dinero total que tenia es: ${s}`)
 })
 >>>>>>> 5004982 (Ejercicio 24)
+<<<<<<< HEAD
 >>>>>>> 2c2e5c4 (Ejercicio 4)
+=======
+=======
+    // cantidad de gramos
+    let gramos=Number(prompt("¿Cuántos gramos de cacao le aregará? ", 20))  
+
+    // operación
+    let t=gramos*10
+
+
+    console.log(`La cantidad de gramos de harina que tiene que agregar es: ${t} gramos`)
+})
+>>>>>>> 0732ad0 (Ejercicio 25)
+>>>>>>> 6557b19 (Ejercicio 5)
