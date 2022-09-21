@@ -103,9 +103,11 @@ addEventListener("DOMContentLoaded",()=>{
     let gramos=Number(prompt("¿Cuántos gramos de cacao le aregará? ", 20))  
 =======
 addEventListener("DOMContentLoaded", (e)=>{
-    // 26. Un camión transporta 25 cajas de repuestos de carros. Si cada caja pesa 748 Kg ¿ Cuántos Kg
-    // transporta ?
+    // 27. tres estudiantes reunieron tapas de gaseosas para repartirlas y venderlas al final del año. Martin toma
+    // 2/3 del total. Jairo un cuarto del total, y Lorena se queda con el resto. ¿qué parte le corresponde a
+    // Lorena?
 
+<<<<<<< HEAD
     // cantidad kg
     
     let cajas = prompt("Cantidad de cajas que transporta", 25); 
@@ -126,4 +128,11 @@ addEventListener("DOMContentLoaded", (e)=>{
     console.log(`La cantidad que transporta es de: ${t} kg`)
 })
 >>>>>>> 4d40ad1 (Ejercicio 26)
+<<<<<<< HEAD
 >>>>>>> 8a952ed (Ejercicio 6)
+=======
+=======
+    // No entendí gg
+})
+>>>>>>> b65a6a7 (El no ejercicio 27)
+>>>>>>> 356d6ea (Ejercicio 7)
