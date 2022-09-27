@@ -103,10 +103,10 @@ addEventListener("DOMContentLoaded",()=>{
     let gramos=Number(prompt("¿Cuántos gramos de cacao le aregará? ", 20))  
 =======
 addEventListener("DOMContentLoaded", (e)=>{
-    //29. Una empresa que contrata personal requiere determinar la edad de las personas que solicitan trabajo,
-    // pero cuando se les realiza la entrevista sólo se les pregunta el año en que nacieron. Realice el código
-    // que representen el algoritmo para solucionar este problema.
+    //30. Ingrese una frase que lo identifique como programador de Software y luego mostar esta frase
+    // invertida
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -155,6 +155,15 @@ addEventListener("DOMContentLoaded", (e)=>{
 
 <<<<<<< HEAD
     console.log(`El valor de la pintura es: ${t}`)
+=======
+    // frase
+    let f= prompt("Coloque la frase: ")
+
+    console.log(`${f}`)
+
+    let finvertido =f.split("").reverse().join("")
+    console.log(`${finvertido}`)
+>>>>>>> deb2daf (Ejercicio 30)
 })
 >>>>>>> 5e38763 (Ejercicio 28)
 <<<<<<< HEAD
